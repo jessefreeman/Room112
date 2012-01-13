@@ -73,6 +73,15 @@
 	 // Black base color for background matches the native apps
    	theWebView.backgroundColor = [UIColor blackColor];
     
+    UIScrollView* scroll;  //
+    for(UIView* theWebSubView in self.webView.subviews){  // where self.webView is the webview you want to stop scrolling.
+        if([theWebSubView isKindOfClass:[UIScrollView class] ]){
+            scroll = (UIScrollView*) theWebSubView;
+            scroll.scrollEnabled = false;
+            scroll.bounces = false;
+        }
+    }
+    
 	return [ super webViewDidFinishLoad:theWebView ];
 }
 

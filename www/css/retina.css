@@ -1,0 +1,24 @@
+body
+{
+    background-image: url("../images/lether-bg-retna.png");
+}
+
+#card
+{
+    background-image: url("../images/card-bg-retna.png");
+}
+
+#top
+{
+    background-image: url("../images/header-bg-retna.png");
+}
+
+#bottom
+{
+    background-image: url("../images/card-bg-retna.png");
+}
+
+#preview
+{
+    background-image: url("../images/hotel-preview-retna.png");
+}

@@ -1,0 +1,236 @@
+/* @override http://localhost:8888/room112/css/normal.css */
+
+/* @override http://localhost:8888/room112/css/normal.css */
+
+html
+{
+	font-family: "Futura-CondensedMedium", sans-serif;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-size: 320px 480px;
+    background-image: url("../images/lether-bg.png");
+}
+
+#stage
+{
+    width: 320px;
+    height: 480px;
+    overflow: hidden;
+    position:relative;
+}
+
+#card
+{
+    width: 295px;
+    height: 421px;
+    left: 12px;
+    top: 900px;
+    display: block;
+    position: relative;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.75);
+    /*-webkit-transition:all .7s ease-in-out;
+    -webkit-transition-delay: 1.5s;*/
+}
+
+#top
+{
+    height: 88px;
+    background-size: 68px 88px;
+    background-image: url("../images/header-bg.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#bottom
+{
+    height: 333px;
+    background-size: 64px 64px;
+    background-image: url("../images/card-bg.png");
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px 15px 25px 15px;
+}
+
+#preview
+{
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+    background-image: url("../images/hotel-preview.png");
+    border-radius: 5px;
+    top: 12px;
+    left: 12px;
+    display: block;
+    position: relative;
+}
+
+button
+{
+    font-family: "Futura-CondensedMedium", sans-serif;
+    text-transform: uppercase;
+	font-size: 20px;
+    width: 100%;
+    letter-spacing:0px;
+	padding: 15px 0px 11px 0px;
+	border-radius: 4px;
+	border: none;
+    -webkit-box-shadow: 0 1px 0px rgba(0,0,0,0.75);
+}
+
+.check-in
+{
+    color: #eff3e4;
+    text-shadow: 0px 1px 0px #305b5e;
+    background: -webkit-gradient(
+    		linear, left top, left bottom,
+    		from(#7accb9),
+    		to(#458b81));
+}
+
+.check-out
+{
+    color: #eff3e4;
+    text-shadow: 0px 1px 0px #305b5e;
+    background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#c8494e),
+            to(#9a3a3f));
+}
+
+.save
+{
+    color: #eff3e4;
+    text-shadow: 0px 1px 0px #305b5e;
+    background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#7accb9),
+            to(#458b81));
+}
+
+.enter-room
+{
+    color: #c2b7b6;
+    text-shadow: 0px 1px 0px #305b5e;
+    background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#b1a5a7),
+            to(#979297));
+    -webkit-box-shadow: 0 1px 0px rgba(0,0,0,0.30);
+}
+
+#action
+{
+    /*position: absolute;*/
+    /*bottom: 0;*/
+}
+
+#map-container
+{
+    border: 4px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 97%;
+    height: 100px;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+
+input, textarea, select{
+    font-family: "Futura-CondensedMedium", sans-serif;
+    font-size: 20px;
+    color: #535961;
+   border: none;
+   background: none;
+   -webkit-appearance: none;
+    -webkit-user-select: text;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-border-radius: 0;
+    letter-spacing:-2px;
+}
+
+input:focus
+{
+    background-color: #ddd3c9;
+}
+
+.container
+{
+    padding-top:10px;
+}
+
+.border-group
+{
+    border-bottom: 4px;
+    border-bottom-style: solid;
+    border-color: #0487c6;
+    padding-left: 34px;
+}
+
+#room-container
+{
+	background: url('../images/room-icon.png') no-repeat;
+	background-size: 34px 69px;
+}
+
+#room
+{
+    font-size: 50px;
+    color: #282320;
+    text-shadow: 0px 3px 0px #d9d1cb;
+    letter-spacing:-2px;
+    padding-left: 0px;
+    margin: 0px 0px 5px 5px;
+}
+
+#date-container
+{
+    float: left;
+    background: url('../images/checkin-icon.png') no-repeat;
+    background-size: 25px 31px;
+    width: 40%;
+}
+
+#date
+{
+}
+
+#date-border, #floor-border
+{
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-top: 0px;
+    border-color: #606772;
+}
+
+#floor-container
+{
+    float: left;
+    background: url('../images/floor-icon.png') no-repeat;
+    background-size: 25px 31px;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+#misc-group
+{
+    display: block;
+    width: 310px;
+    margin: 10px 0;
+}
+
+label
+{
+    font-family: "Futura-CondensedMedium", sans-serif;
+    font-size: 11px;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    letter-spacing:0px;
+}

@@ -2,24 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>TopActivityIndicator</key>
-	<string>gray</string>
+	<key>AllowInlineMediaPlayback</key>
+	<false/>
+	<key>AutoHideSplashScreen</key>
+	<true/>
 	<key>EnableLocation</key>
 	<false/>
 	<key>EnableViewportScale</key>
 	<false/>
-	<key>AutoHideSplashScreen</key>
-	<true/>
-	<key>ShowSplashScreenSpinner</key>
-	<true/>
+	<key>ExternalHosts</key>
+	<array>
+		<string>maps.google.com</string>
+	</array>
 	<key>MediaPlaybackRequiresUserAction</key>
-	<false/>
-	<key>AllowInlineMediaPlayback</key>
 	<false/>
 	<key>OpenAllWhitelistURLsInWebView</key>
 	<false/>
-	<key>ExternalHosts</key>
-	<array/>
 	<key>Plugins</key>
 	<dict>
 		<key>com.phonegap.accelerometer</key>
@@ -38,14 +36,18 @@
 		<string>PGFileTransfer</string>
 		<key>com.phonegap.geolocation</key>
 		<string>PGLocation</string>
-		<key>com.phonegap.notification</key>
-		<string>PGNotification</string>
 		<key>com.phonegap.media</key>
 		<string>PGSound</string>
 		<key>com.phonegap.mediacapture</key>
 		<string>PGCapture</string>
+		<key>com.phonegap.notification</key>
+		<string>PGNotification</string>
 		<key>com.phonegap.splashscreen</key>
 		<string>PGSplashScreen</string>
 	</dict>
+	<key>ShowSplashScreenSpinner</key>
+	<true/>
+	<key>TopActivityIndicator</key>
+	<string>gray</string>
 </dict>
 </plist>
