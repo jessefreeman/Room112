@@ -1,24 +1,24 @@
 body
 {
-    background-image: url("../images/lether-bg-retna.png");
+    background-image: url("../images/lether-bg@2x.png");
 }
 
 #card
 {
-    background-image: url("../images/card-bg-retna.png");
+    background-image: url("../images/card-bg@2x.png");
 }
 
 #top
 {
-    background-image: url("../images/header-bg-retna.png");
+    background-image: url("../images/header-bg@2x.png");
 }
 
 #bottom
 {
-    background-image: url("../images/card-bg-retna.png");
+    background-image: url("../images/card-bg@2x.png");
 }
 
 #preview
 {
-    background-image: url("../images/hotel-preview-retna.png");
+    background-image: url("../images/hotel-preview@2x.png");
 }
