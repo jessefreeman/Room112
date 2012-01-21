@@ -52,6 +52,12 @@
         if (currentRoomData == null) {
             mode = ENTER_ROOM;
             $("#top").css("background-image", "url('images/map-add-location.png')");
+            var currentTime = new Date()
+            var month = currentTime.getMonth() + 1
+            var day = currentTime.getDate()
+            var year = currentTime.getFullYear();
+            var currentDate = month + "/" + day + "/" + year;
+            $("#date").attr("placeholder", currentDate).val(currentDate);
         }
         else {
             console.log("Has Data");
@@ -61,7 +67,10 @@
             $("#date").val(currentRoomData.date);
             cacheMapURL = currentRoomData.map;
             mode = CHECK_OUT;
-            $("#top").css("background-image", "url('"+cacheMapURL+"')");
+            if(cacheMapURL)
+                $("#top").css("background-image", "url('"+cacheMapURL+"')");
+            else
+                $("#top").css("background-image", "url('images/map-add-location.png')");
         }
 
         // Add event listeners for fields and buttons
@@ -87,6 +96,7 @@
         $("#action").click(formAction);
     }
 
+    //TODO need invalidation for map?
     function invalidate(value) {
         if (currentRoomData) {
             var fieldID = "#" + value;
@@ -156,12 +166,7 @@
     function saveRoomData() {
         var newRoom = $("#room").val();
 
-        var currentTime = new Date()
-        var month = currentTime.getMonth() + 1
-        var day = currentTime.getDate()
-        var year = currentTime.getFullYear();
-        var currentDate = month + "/" + day + "/" + year;
-        $("#date").attr("placeholder", currentDate).val(currentDate);
+
 
         var formData = {
             room:$("#room").val(),
@@ -217,9 +222,9 @@
         $("#top").css("background-image", "url('images/map-error.png')");
     }
     //    if(device)
-    document.addEventListener("deviceready", onDeviceReady, false);
+    //document.addEventListener("deviceready", onDeviceReady, false);
     //    else
-    //onDeviceReady();
+    onDeviceReady();
 
 </script>
 </body>
