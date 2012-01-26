@@ -34,6 +34,7 @@ body
 {
     width: 296px;
     height: 422px;
+    background-size: 296px 422px;
     left: 12px;
     top: -900px;
     display: block;

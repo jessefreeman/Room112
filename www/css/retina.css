@@ -1,4 +1,4 @@
-body
+html
 {
     background-image: url("../images/lether-bg@2x.png");
 }
@@ -8,17 +8,7 @@ body
     background-image: url("../images/card-bg@2x.png");
 }
 
-#top
+#pocket
 {
-    background-image: url("../images/header-bg@2x.png");
-}
-
-#bottom
-{
-    background-image: url("../images/card-bg@2x.png");
-}
-
-#preview
-{
-    background-image: url("../images/hotel-preview@2x.png");
+    background-image: url('../images/pocket@2x.png');
 }
