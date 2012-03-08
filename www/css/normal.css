@@ -44,7 +44,7 @@ body
     -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.75);
 }
 
-#top
+#top, #topImage
 {
     height: 85px;
     background-size: 296px 85px;
@@ -121,7 +121,7 @@ button
     bottom: 35px;
     right: 0px;
     left: 0px;
-    margin: 0px 10px;
+    margin: 30px 10px;
     width:93%;
 }
 
