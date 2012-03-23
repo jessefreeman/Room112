@@ -34,7 +34,6 @@
 		E57EDA5414BF3C6A00298BE4 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = E57EDA5314BF3C6A00298BE4 /* PhoneGap.plist */; };
 		E57EDA5814BF3C6A00298BE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57EDA5714BF3C6A00298BE4 /* AppDelegate.m */; };
 		E57EDA6114BF3CF300298BE4 /* www in Resources */ = {isa = PBXBuildFile; fileRef = E57EDA6014BF3CF300298BE4 /* www */; };
-		E5F039D4150855B9006CCEA8 /* room112.js in Sources */ = {isa = PBXBuildFile; fileRef = E5F039D3150855B9006CCEA8 /* room112.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,7 +69,6 @@
 		E57EDA5714BF3C6A00298BE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		E57EDA5A14BF3C6A00298BE4 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		E57EDA6014BF3CF300298BE4 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-		E5F039D3150855B9006CCEA8 /* room112.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = room112.js; path = www/js/room112.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 		E57EDA0514BF3C6A00298BE4 = {
 			isa = PBXGroup;
 			children = (
-				E5F039D3150855B9006CCEA8 /* room112.js */,
 				E57EDA6014BF3CF300298BE4 /* www */,
 				E57EDA3114BF3C6A00298BE4 /* Room112 */,
 				E57EDA1614BF3C6A00298BE4 /* Frameworks */,
@@ -326,7 +323,6 @@
 			files = (
 				E57EDA3914BF3C6A00298BE4 /* main.m in Sources */,
 				E57EDA5814BF3C6A00298BE4 /* AppDelegate.m in Sources */,
-				E5F039D4150855B9006CCEA8 /* room112.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

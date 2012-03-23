@@ -60,6 +60,7 @@ function loadGPS()
 {
     navigator.geolocation.getCurrentPosition(showMap, showMapError);
 }
+
 function addInputListeners() {
     $("input").focusout(function () {
                         invalidate(this.id);
